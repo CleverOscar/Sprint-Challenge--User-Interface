@@ -198,3 +198,41 @@ nav a {
 	text-decoration: none;
 	color: black;
 }
+
+/* About page styles  */
+
+.about {
+	margin: 40px 20px;
+}
+
+.about-main-content {
+	border-top: 2px dotted black;
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 45%;
+	margin: 20px 20px;
+	border-bottom: 2px dotted black;
+	padding-bottom: 20px;
+}
+
+.box img {
+	padding-bottom: 20px;
+}
+
+.together {
+	padding: 10px 20px;
+}
+
+.learnMore {
+	width: 125px;
+	height: 40px;
+	display: block;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: 2px solid black;
+	cursor: pointer;
+}

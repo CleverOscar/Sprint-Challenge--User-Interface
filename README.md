@@ -34,31 +34,42 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  - HTML syntax are the symbols developers follow to help one another understand each others code. Just like the English language, we all follow a specific language with specific characters/letters that help us communicate. We use HTML to help devs understand what we are putting on the web by having specific elements(words) do specific web construction.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+  - display: block, a block has whitespace above and below it, and HTML elements are not allowed next to it unless it's ordered when adding float, also it takes up the full width available to it with a new line before and after it
+  - display: inline, the element is inside the current block on the same line, takes up as much width as it needs, and does not force new lines
+
 3. What are the 4 areas of the box model?
+    1. Margin
+    2. Border
+    3. Padding
+    4. Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+  - It works on the cross axis as the items are being pushed down or up to be on the center of the container
 
 5. Explain why git is valuable to a team of developers.
+  - Git is super valuable because it helps everyone keep one original file, while having the freedom to create branches and mess with the code and saving their progress on new things knowing the original code is still safe, then when ever the team is ready to put their codes together, everything is pushed onto github to merge things together. Helps prevent problems and put things in together part by part if ever needed too.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
@@ -69,21 +80,21 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
+* [x] Build the HTML and CSS to create the missing navigation and header.
 * [ ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [x] box1: `teal`
+* [x] box2: `gold`
+* [x] box3: `cadetblue`
+* [x] box4: `coral`
+* [x] box5: `crimson`
+* [x] box6: `forestgreen`
+* [x] box7: `darkorchid`
+* [x] box8: `hotpink`
+* [x] box9: `indigo`
+* [x] box10: `dodgerblue`
 
 ### About Page
 
